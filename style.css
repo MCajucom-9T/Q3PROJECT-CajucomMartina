@@ -157,6 +157,10 @@ footer {
     padding-bottom: 20px; 
 }
 
-h3, h4, i, p {
-        color: #EBD7CE;
+h3, h4, i, p, li {
+    color: #EBD7CE;
+}
+
+h3 {
+    font-family: Emblema One;
 }
