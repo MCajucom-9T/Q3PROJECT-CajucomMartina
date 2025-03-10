@@ -1,0 +1,140 @@
+html, body {
+    height: 100%;
+    min-height: 100vh;
+}
+
+body {
+    background-image: url(bg.png);
+    background-size: cover;
+    width: 100%;
+}
+
+a img {
+    width: 60%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #836871;
+    padding: 10px;
+}
+.nav-link {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: #CDADAB;
+}
+.nav-link.active {
+    background-color: #CDADAB;
+}
+.search-bar {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: #836871;
+    background-color: #CDADAB;
+    padding: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.col-sm-4 img {
+    width: 100%;
+}
+
+.container {
+    background-color: #A37E84;
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+    margin-top: 50px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;  
+    gap: 10px;  
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+label {
+    min-width: 120px; 
+    text-align: right;
+    color: #EBD7CE;
+    font-weight: bold;
+}
+
+select, input {
+    background-color: #EBD7CE !important;
+    color: white;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 5px;
+    appearance: none; /* Hides default dropdown styling */
+}
+
+
+form button {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+    background-color: #848A9B;
+    color: #EBD7CE;
+}
+
+#price {
+    flex: 0 0 120px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.price-display {
+    background-color: #EBD7CE;
+    min-height: 35px;
+    flex-grow: 1;
+    max-width: 83%;
+    display: flex;
+    border-radius: 0px 5px 5px 0px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 5px;
+}
+
+footer {
+    text-align: center;
+    color: #EBD7CE;
+    font-size: 120%;
+    font-weight: bold;
+}
