@@ -7,6 +7,16 @@ body {
     background-image: url(bg.png);
     background-size: cover;
     width: 100%;
+    color: #EBD7CE;
+    font-family: Crimson Text;
+    padding-bottom: 80px;
+}
+h1{
+    font-family: Emblema One;
+}
+
+img{
+    width:70%
 }
 
 a img {
@@ -29,7 +39,7 @@ a img {
 
 .nav-link:hover {
     color: white;
-    background-color: #CDADAB;
+    background-color:#CDADAB;
 }
 .nav-link.active {
     background-color: #CDADAB;
@@ -61,10 +71,15 @@ h2 {
     background-color: #CDADAB;
     padding: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+    font-family: Emblema One;
 }
 
 .col-sm-4 img {
     width: 100%;
+}
+
+.col-sm-6 img {
+    width: 115%;
 }
 
 .container {
@@ -75,6 +90,7 @@ h2 {
     margin: auto;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
     margin-top: 50px;
+    margin-bottom: 70px;
 }
 
 .input-group {
@@ -86,19 +102,20 @@ h2 {
 }
 
 label {
-    min-width: 120px; 
+    min-width: 120px;
     text-align: right;
     color: #EBD7CE;
     font-weight: bold;
 }
 
-select, input {
+select, input{
     background-color: #EBD7CE !important;
     color: white;
     border: 1px solid #ccc;
     padding: 8px;
     border-radius: 5px;
-    appearance: none; /* Hides default dropdown styling */
+    appearance: none; 
+    width: 100%;
 }
 
 
@@ -114,7 +131,7 @@ form button {
 
 #price {
     flex: 0 0 120px;
-    white-space: nowrap; 
+    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
@@ -137,4 +154,5 @@ footer {
     color: #EBD7CE;
     font-size: 120%;
     font-weight: bold;
+    padding-bottom: 20px; 
 }
